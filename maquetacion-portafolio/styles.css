@@ -1,0 +1,155 @@
+body{
+    font-family: 'open sans';
+    margin: 0px;
+}
+
+.menu-container{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    height: 50px;
+    padding: 20px 20px;
+    background-color: #98989880;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    flex: 1 1 300px;
+}
+
+.logo>img{
+    max-height: 100%;
+}
+
+.menu{
+    flex: 1 1 300px;
+}
+
+.menu ul{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;    
+    list-style: none;
+    padding-left: 0px;
+}
+.menu ul>li{
+    flex-grow: .5;
+}
+.menu a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #000;
+}
+
+.inicio{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    background-image: url(coding.jpg);
+    height: 700px;
+    align-items: center;
+    color: #FFF;
+    justify-content: space-around;
+}
+
+.inicio>.caption{
+    flex: 0 1 40%;
+    background-color: #00000085;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.inicio h1{
+    font-size: 42px;
+    margin-top: 0px;
+}
+
+.redes-sociales i{
+    padding: 20px;
+    border-radius: 50%;
+    border: solid 1px #FFF;
+    font-size: 21px;
+    color: #FFF;
+    margin: 0px 10px;
+}
+
+.redes-sociales .fa-facebook-f{
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+
+/* contenido main about me */
+
+.contenedor-about-me{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+}
+
+.seccion-datos{
+    flex-grow: 1;
+    color: #fff; 
+   
+}
+
+.contenedor-about-me .foto-perfil{
+    border: 5px solid yellow;
+    display: flex;
+    
+}
+
+.contenedor-about-me .foto-perfil img{
+    height: 350px;
+    max-height: 100%;
+    padding: 0px 15px;
+    
+}
+
+
+.descripcion-personal{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 40px;
+}
+
+.descripcion-personal h2, p{
+    margin-top: 0px;
+    
+}
+.datos-personales{
+   display: flex;
+}
+
+.datos-personales> .datos> ul, .datos-personales> .informacion> ul{
+    text-decoration: none;
+    list-style: none;
+} 
+
+.seccion-datos .boton{
+    background-color: yellow;
+    padding: 15px 20px;
+    border-radius: 30px;
+    width: 100px;
+    margin-left: 40px;
+    
+}
+
+.seccion-datos .boton a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.seccion-datos .boton:hover{
+    background-color: #F3E373;
+}
