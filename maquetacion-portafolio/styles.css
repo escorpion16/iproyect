@@ -1,6 +1,7 @@
 body{
     font-family: 'open sans';
     margin: 0px;
+    
 }
 
 .menu-container{
@@ -12,6 +13,7 @@ body{
     background-color: #98989880;
     position: fixed;
     width: 100%;
+    
 }
 
 .logo{
@@ -99,22 +101,18 @@ body{
 .seccion-datos{
     flex-grow: 1;
     color: #fff; 
-   
 }
 
 .contenedor-about-me .foto-perfil{
     border: 5px solid yellow;
-    display: flex;
-    
+    display: flex;  
 }
 
 .contenedor-about-me .foto-perfil img{
     height: 350px;
     max-height: 100%;
-    padding: 0px 15px;
-    
+    padding: 0px 15px;  
 }
-
 
 .descripcion-personal{
     display: flex;
@@ -153,3 +151,45 @@ body{
 .seccion-datos .boton:hover{
     background-color: #F3E373;
 }
+
+/* Seccion Servicios */
+.contenedor-servicios{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* box-sizing: border-box; */
+}
+
+    .item{
+        flex-basis: 25%;
+        height: auto;
+        border: 1px solid #fff;
+        /* margin-bottom: 30px; */
+        margin: 0 10px 30px 10px;
+        padding: 40px 30px;
+        text-align: center;
+        transition: all 0.4s ease;
+    }
+    .item i{
+        /* margin-top: 20px; */
+        font-size: 45px;
+        color: yellow;
+    }
+    .item:hover{
+        background-color: yellow;
+        color: #fff;
+    }
+
+        .item h2{
+            color: yellow;
+        }
+
+        .item:hover h2{
+            color: #fff;
+        }
+
+        .item:hover i{
+            color: #fff;
+        }
